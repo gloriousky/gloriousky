@@ -3,7 +3,7 @@
 <p align="center">
   Hello, I'm David. I have a gentle personality and enjoy exploring the unknown. I am always seeking to find the root cause of problems and their solutions. As for me, work is not just a job, but also an opportunity to grow and thrive.
 Currently, I work as a frontend engineer at a startup. My primary tasks involve web development, engaging with project managers to define requirements, working with backend developers to integrate APIs, and testing product compatibility across multiple devices and browsers. I've worked on initiatives including live streaming and sporting events.
- I believe in the Clean Code principles and attempt to create components with little coupling and high scalability. I am also enthusiastic about functional programming!
+ I believe in the Clean Code principles and attempt to create components with little coupling and high scalability. Additionally,I am enthusiastic about functional programming and design pattern.
 </p>
 
 <h2 align="center">🔧 Languages and Tools</h2>
