@@ -58,7 +58,31 @@
     width="40"
     height="40"
     />
-  </a>  
+  </a>
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer">
+    <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg"
+    alt="vite"
+    width="40"
+    height="40"
+    />
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img
+    src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+    alt="tailwindcss"
+    width="40"
+    height="40"
+    />
+  </a>
+  <a href="https://pinia.vuejs.org/" target="_blank" rel="noreferrer">
+    <img
+    src="https://pinia.vuejs.org/logo.svg"
+    alt="pinia"
+    width="40"
+    height="40"
+    />
+  </a>
 <!--   <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
     <img
     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -109,6 +133,35 @@
     />
   </a>
 </p>
+
+<h2 align="center">💼 Project Highlights</h2>
+
+### LINE H5 Entertainment Platform
+
+> **Stack**: Vue 3 · Vite 5 · TypeScript · Pinia · Tailwind CSS · Socket.io · LINE LIFF SDK · GSAP · ECharts · RxJS
+
+A full-featured H5 web application for a LINE-based online entertainment platform, covering games, payments, guilds, referral commissions, real-time chat, and more.
+
+**Advertising & Analytics Integration**
+- Integrated **Google Tag Manager (GTM)**, **Google Analytics 4 (GA4)**, and **Meta Pixel** for ad event tracking and conversion measurement
+- Implemented production-only conditional loading and async script injection to avoid impacting page performance
+
+**Performance Optimization**
+- Built a **Service Worker** with differentiated cache strategies: network-first for hashed JS/CSS assets (ensuring freshness), cache-first for static resources (enabling offline access), and forced cache-busting for `index.html`
+- Added **PWA support** (`manifest.json`, standalone display mode) for Add-to-Home-Screen functionality
+- Integrated **browser-side image compression** (`browser-image-compression`) and custom Vue directives for lazy loading and error fallback, reducing unnecessary bandwidth usage
+- Configured **Terser** to strip all `console` and `debugger` statements in production builds
+- Used `import.meta.glob()` for automatic component registration and code splitting
+
+**SEO**
+- Set up **Puppeteer-based pre-rendering** (`vite-plugin-seo-prerender`) for 8 key routes, improving search engine crawlability for a SPA
+- Injected `noindex` meta tags automatically in non-production environments to prevent accidental indexing
+
+**Architecture**
+- Designed a modular **Workflow + Store** architecture with 14 business workflows and 14 Pinia stores, keeping UI components decoupled from business logic
+- Implemented **real-time bidirectional chat** with Socket.io
+- Integrated **LINE LIFF SDK** for native LINE login, in-app payments (LINE Pay), and social sharing
+- Supported **multi-environment builds** (dev / stage / uat / production) with centralized API and feature configuration
 
 <h2 align="center">📈 GitHub Stats</h2>
 
