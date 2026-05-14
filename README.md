@@ -144,7 +144,6 @@ A full-featured H5 web application for a LINE-based online entertainment platfor
 
 **Advertising & Analytics Integration**
 - Integrated **Google Tag Manager (GTM)**, **Google Analytics 4 (GA4)**, and **Meta Pixel** for ad event tracking and conversion measurement
-- Implemented production-only conditional loading and async script injection to avoid impacting page performance
 
 **Performance Optimization**
 - Built a **Service Worker** with differentiated cache strategies: network-first for hashed JS/CSS assets (ensuring freshness), cache-first for static resources (enabling offline access), and forced cache-busting for `index.html`
@@ -153,15 +152,6 @@ A full-featured H5 web application for a LINE-based online entertainment platfor
 - Configured **Terser** to strip all `console` and `debugger` statements in production builds
 - Used `import.meta.glob()` for automatic component registration and code splitting
 
-**SEO**
-- Set up **Puppeteer-based pre-rendering** (`vite-plugin-seo-prerender`) for 8 key routes, improving search engine crawlability for a SPA
-- Injected `noindex` meta tags automatically in non-production environments to prevent accidental indexing
-
-**Architecture**
-- Designed a modular **Workflow + Store** architecture with 14 business workflows and 14 Pinia stores, keeping UI components decoupled from business logic
-- Implemented **real-time bidirectional chat** with Socket.io
-- Integrated **LINE LIFF SDK** for native LINE login, in-app payments (LINE Pay), and social sharing
-- Supported **multi-environment builds** (dev / stage / uat / production) with centralized API and feature configuration
 
 <h2 align="center">📈 GitHub Stats</h2>
 
